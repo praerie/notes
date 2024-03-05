@@ -49,3 +49,43 @@ Pipelines must be bidirectional to allow for the communication of upstream chang
 
 An ideal pipeline enables revisions to occur at any stage of production.
 
+## Section 1.4: Differences and Similarities Between Film and Game Pipelines
+
+Although film and game pipelines are often structured differently, both require...
+* models,
+* textures,
+* animation,
+* lighting,
+* particle effects,
+* post-processing, 
+* and audio.
+
+### Volume of Data
+
+The biggest challenge in film and game pipelines is managing the sheer volume of information required to produce photo-realistic imagery. During production, terabytes of data are passed through to the renderer or compositor.
+
+For example, a single creature in a VFX film may comprise hundreds, if not thousands, of individual assets that are assembled to generate a working render. 
+
+### Timeline
+
+| Film Production | Game Production |
+| ---------------------- | ----------------- |
+| avg. 6 months - 1 year | avg. 1 to 4 years |
+
+### Content
+
+In games, the production team decides on story, visual style, and audio, but the player controls how the content plays out via input from devices like controllers, microphones, etc. 
+
+Film and video present the viewer with a complete, polished package representing the _vision of the creative team_. The viewer has no say in how the content of a film unfolds as the action, camera angles, and pacing are _decided by the diretor and production team_.
+
+### Processing 
+
+As games rely on input to direct the content, processing is done in real time:  the 2D and 3D assets, lighting, physics simulations, AI, and audio are stitched together by the code to create an interactive experience.
+
+Compared to a film animator who typically creates long sequences of movements, a game animator will create hundreds of smaller animations that may be triggered in response to the player's input.
+
+### Outputs
+
+Films have standard output formats for their end products, e.g. Blu-ray, DVD, and DCP (Digital Cinema Package) for projectors.
+
+On the other hand, games do not have a standard output format. A large part of the game development process is building the platform itself that the component pipelines are targeting. Games technology is often _proprietary_ and _evolves rapidly_ to integrate different assets.
