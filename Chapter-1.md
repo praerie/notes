@@ -68,7 +68,7 @@ For example, a single creature in a VFX film may comprise hundreds, if not thous
 
 ### Timeline
 
-| Film Production | Game Production |
+| Film Production        | Game Production   |
 | ---------------------- | ----------------- |
 | avg. 6 months - 1 year | avg. 1 to 4 years |
 
@@ -89,3 +89,75 @@ Compared to a film animator who typically creates long sequences of movements, a
 Films have standard output formats for their end products, e.g. Blu-ray, DVD, and DCP (Digital Cinema Package) for projectors.
 
 On the other hand, games do not have a standard output format. A large part of the game development process is building the platform itself that the component pipelines are targeting. Games technology is often _proprietary_ and _evolves rapidly_ to integrate different assets.
+
+## Section 1.5: An Overview of a Film Production
+
+Visual effects pipelines are complex due to a mixture of technical and philosophical considerations.
+
+### Technical Considerations
+
+#### A. Data Volume and Management
+
+The raw materials of the visual effects "production line" are varied and numerous, including plates&#185; of different formats and aspet ratios, LIDAR scans&#178;, reference photography, chrome balls&#179; and HDRI&#8308; to capture the lighting of the environment, matte paintings&#8309;, data sheets with camera lens information and frame counts, etc.
+
+Each iteration also creates more data. With FX elements, the data-sets can occupy many terabytes of storage space. Although smaller, textures, animation data, matte paintings, and plates also occupy a significant amount of space.
+
+Sometimes it is necessary to revert to older versions or work with several alternatives in parallel. Given the sheer volume of data, archiving is a complex process.
+
+#### B. Rendering
+
+Rendering involves converting 3D data into 2D images, a crucial part of the VFX pipeline.
+
+Simulation complexities contribute to rendering challenges, with avalanche simulations taking significant computational time:  around half a day for one sub-simulation and up to 72 hours for more complex sequences. 
+
+Rendering goals typically aim for each frame to be rendered within one to two hours per pass. Complex shots with multiple FX layers, airplane interiors, exteriors, and environments may require around ten hours per frame. For example, a shot comprising 197 frames may necessitate 2,000 hours of render time for a complete iteration. Some frames, termed "trouble frames," may require additional manual processing.
+
+Rendering tasks are executed alongside simulations on the facility's server farm, necessitating efficient scheduling and resource management.
+
+#### C. Multi-Specialty Coordination
+
+Collaboration brings shots to life:
+ 
+* Accurately tracking the movement of live-action cameras is crucial for integrating CG elements into the scene and ensuring that they match the perspective and movement of the live footage.
+
+* Rotoscoping involves manually tracing the outlines of live-action actors or objects in each frame of footage, an essential process for isolating elements that need to be composited into the scene, such as CG characters or effects.
+
+* The layout department uses iterations of rotoscoped data to determine the position of the virtual camera, block* the characters, and create a rough animation track, ensuring that the material conforms to the set and fits the continuity of the sequence. 
+
+* The animation department takes the rough animation track and finesses it until it looks perfect.
+
+* The asset department craetes digital models, textures, and rigs for various elements in the shot that are used by the rotoscoping, layout, and animation departments. A great number of asset variations are craeted to be uysed in several different sequences. Likewise, different LOD (level of detail) models are created for different purposes, e.g. high-res models specifically for cloth simulation and low-res models for physics simulations. 
+
+As timescales are short, multiple teams work simultaneously on various tasks. For example, the lighting department begins setup before animation has begun, and the FX department starts blocking something out for digital simulations while awaiting updated animations.
+
+#### D. Sharing Amongst Facilities
+
+VFX studios collaborate with external partners or subcontractors involved in the production process by sharing assets. When outside facilities run different pipelines, exchange formats need to be negotiated. 
+
+#### E. Iterative Approval Process
+
+The iterative approval process involves presenting work-in-progress to clients or stakeholders at regular intervals and incorporating their feedback into subsequent iterations.
+
+#### F. Destructive vs. Non-Destructive
+
+There are often variations of digital models with different appearances and attributes. 
+
+**Destructive** workflows involve _directly altering the original image or data_, potentially eliminating or irreversibly altering pixels or information.
+
+**Non-destructive** workflows involve working with _layers or separate elements_ that can be adjusted and modified without altering the original data.
+
+Examples:
+
+| destructive | non-destructive |
+| - | - |
+| directly painting a beard onto an original image | painting a beard on a separate layer |
+
+
+#### G. Terminology
+
+1. **plate** &mdash; footage or high-res images of a scene, usually without any actors or props, serving as the foundational material upon which visual effects artists work
+2. **LIDAR (Light Detection and Ranging) scans** &mdash; remote sensing method that uses pulsed laser light to measure distances to objects and create precise, detailed 3D representations of environments, used in the film industry for digital set extension, virtual production, visual effects integration, and previsualization
+3. **chrome balls** &mdash; strategically placed within live-action scenes to capture surrounding lighting conditions and reflections from the environment, to be replicated on computer-generated elements in post-production
+4. **HDRI (High Dynamic Range Imaging)** &mdash; a technique used to capture and store a wide range of luminance values from a real-world scene, involving capturing multiple images of the same scene at different exposure levels ranging from underexposed to overexposed which are then later combined to create an HDR image that preserves details in the brightest and darkest areas of the scene
+5. **matte paintings** &mdash; a painted representation of a landscape, set, or distant location that allows filmmakers to create the illusion of an environment that is not present at the filming location
+
