@@ -200,3 +200,6 @@ _This funny, engaging, and informative section was written by [Ben Carter](http:
 * Test team reports any bugs, which require creative solutions given budget and time constraints
 * As the bug count dwindles, so does the number of people on the team, leaving a handful of programmers fixing final bugs reported by QA as well as producers determing DLC scheduling to match sales projections
 
+## Section 1.7: Remember: Each Production is Unique
+
+The subsequent chapters explore the diverse nature of production processes, highlighting that there is no one-size-fits-all approach, no such thing as a "typical" production. Situations described may not match your circumstances, so you should exercise your own judgment about the advice offered.
