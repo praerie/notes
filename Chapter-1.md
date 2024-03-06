@@ -186,4 +186,17 @@ These complications teach us 3 things:
 2. The capacity to make such changes varies greatly between departments.
 3. People are often happy to make changes that, while great for them, have significant impact downstream.
 
+## Section 1.6: An Overview of Game Production
+
+_This funny, engaging, and informative section was written by [Ben Carter](http://www.saillune.net), game developer and author. I highly recommend reading it yourself, but here's a brief overview of the steps he described for developing an action/adventure game with linear gameplay:_
+
+* Prototyping and planning phases
+* Iterative level development with weekly reviews and feedback integration from stakeholders
+* Reuse of assets from previous projects
+* Concurrent workflows with designers creating whitebox layouts, programmers experimenting with AI, and cut-scene storyboard creation
+* Integration process where all the work comes together, inevitably leading to more iteration to address visual style adjustments, scaling issues, discrepancies between level layouts and assets, and other unexpected changes
+* Alpha-beta-final process where levels are content-locked one by one, prompting rush to supply missing assets and/or fill in placeholder assets
+* Final rounds of polishing and bug-fixing
+* Test team reports any bugs, which require creative solutions given budget and time constraints
+* As the bug count dwindles, so does the number of people on the team, leaving a handful of programmers fixing final bugs reported by QA as well as producers determing DLC scheduling to match sales projections
 
