@@ -152,7 +152,6 @@ Examples:
 | - | - |
 | directly painting a beard onto an original image | painting a beard on a separate layer |
 
-
 #### G. Terminology
 
 1. **plate** &mdash; footage or high-res images of a scene, usually without any actors or props, serving as the foundational material upon which visual effects artists work
@@ -160,4 +159,31 @@ Examples:
 3. **chrome balls** &mdash; strategically placed within live-action scenes to capture surrounding lighting conditions and reflections from the environment, to be replicated on computer-generated elements in post-production
 4. **HDRI (High Dynamic Range Imaging)** &mdash; a technique used to capture and store a wide range of luminance values from a real-world scene, involving capturing multiple images of the same scene at different exposure levels ranging from underexposed to overexposed which are then later combined to create an HDR image that preserves details in the brightest and darkest areas of the scene
 5. **matte paintings** &mdash; a painted representation of a landscape, set, or distant location that allows filmmakers to create the illusion of an environment that is not present at the filming location
+
+### Philosophical Considerations
+
+Important and deeply consequential questions are raised in VFX:
+
+> Should all VFX processes be redesigned to be non-destructive?
+
+Although it may be obvious that this should be the case, practical considerations stand in the way:
+
+* Third-party tools, designed by software vendors for specific functions, limit customization options.
+* Modifying these tools to suit new workflows may prove challenging.
+* Artists may resist adopting non-standard workflows within familiar tools.
+* Each department uses a different suite of third-party software tools (e.g. Maya, Mari, Photoshop, Katana, RenderMan, Houdini, Nuke), many of which lack compatibility with each other.
+
+> Which file formats should be used to transfer data between different software tools in the VFX pipeline?
+
+* Considerations include when to use native data formats versus application-agnostic formats, with trade-offs inherent in each decision.
+* These decisions can have far-reaching consequences for the efficiency and interoperability of the VFX pipeline. For example:
+    * In shot production, the FX department's tool for managing boulder variants in avalanches creates challenges due to file transfer limitations with the lighting department.
+    * At the end of the pipeline, the compositing department requires specific camera information not currently exported, prompting updates to the asset management system and camera export/import code for this particular project.
+* Collaboration is essential in rectifying issues and streamlining the overall process.
+
+These complications teach us 3 things:
+1. VFX pipelines need to be flexible since they will undergo constant change.
+2. The capacity to make such changes varies greatly between departments.
+3. People are often happy to make changes that, while great for them, have significant impact downstream.
+
 
