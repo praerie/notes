@@ -53,12 +53,27 @@ The most expensive AAA&#185; game budgets rival those of the $100 million+ budge
 
 Costs rise with each successive generation of game consoles.
 
-&#185; **AAA** (Triple-A) &mdash; informal classification used to classify video games produced and distributed by mid-sized or major publishers, typically with higher development and marketing budgets than lower tiers
+&#185;**AAA** (Triple-A) &mdash; informal classification used to classify video games produced and distributed by mid-sized or major publishers, typically with higher development and marketing budgets than lower tiers
 
 ### Market Landscape
 
-_Success is the exception rather than the rule._ In response, many game developers and publishers have attempted to reduce risk by "rinsing and repeating" what has already worked in the market, leading to a plethora of sequels and a lack of innovation in game design.
+_Success is the exception rather than the rule._ In response, many game developers and publishers have attempted to reduce risk by "rinsing and repeating" what has already worked in the market, leading to a plethora of sequels and a lack of innovation in game design. However, the lower end of the market is thriving, turning away from inflated development costs of console games and towards mobile, social, and browser games to find new audiences. 
 
-In contrast, the lower end of the market is thriving, turning away from inflated development costs of console games and towards mobile, social, and browser games to find new audiences. 
+Given the market diversity, it is difficult to generalize about the demands that economic factors place upon the development pipeline: AAA games require developers to manage large data sets, track complex production jobs, and control costs tightly, while indie titles require lightweight, agile pipelines permitting rapid innovation. 
 
-Given the market diversity, it is difficult to generalize about the demands that economic factors place upon the development pipeline: AAA games require developers to manage large data sets, track complex production jobs, and control costs tightly. In contrast, indie titles require lightweight, agile pipelines permitting rapid innovation. 
+## Section 2.4: The Stages of Production
+
+Terminology used in live action films with CG enhancements, animated features, and games has evolved along different paths, sometimes resulting in homonyms that can cause confusion.
+
+Main stages of film production:
+* Pre-production
+* Production
+* Post-production
+
+Main stages of game production:
+* Pre-production
+* Production
+* Finalling
+
+Post-production and finalling are where the film and game industries diverge the most: film strives to conform to a predefined storyline with a linear series of VFX shots, and games provide dynamic, interactive experiences with the game engine generating visuals in response to player input.
+
