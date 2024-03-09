@@ -77,3 +77,25 @@ Main stages of game production:
 
 Post-production and finalling are where the film and game industries diverge the most: film strives to conform to a predefined storyline with a linear series of VFX shots, and games provide dynamic, interactive experiences with the game engine generating visuals in response to player input.
 
+## Section 2.5: Other Language Barriers
+
+Artists, developers, and management may use language in different ways. For example, an artist concerned with aesthetics may describe image creation differently to a programmer concerned with the mathematics of stimulating light.
+
+Consider a spectrum of language from cold, technical logic at one end to emotional, abstract creativity at the other. 
+
+<p align="center">
+    < &mdash; <b>cold, technical logic</b> 
+    &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; 
+    <b>emotional, abstract creativity</b> &mdash; > 
+    <br />
+    <i>artist &hellip; designer &hellip; 
+    level integrator &hellip; 
+    technical artist &hellip; programmer</i>
+</p>
+
+When communicating with other groups, it is important to do so on an appropriate point of the spectrum, as they may not share your assumptions about terminology.
+
+
+
+
+
