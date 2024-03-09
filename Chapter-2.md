@@ -79,7 +79,7 @@ Post-production and finalling are where the film and game industries diverge the
 
 ## Section 2.5: Other Language Barriers
 
-Artists, developers, and management may use language in different ways. For example, an artist concerned with aesthetics may describe image creation differently to a programmer concerned with the mathematics of stimulating light.
+Artists, developers, and management may use language in different ways. For example, an artist concerned with aesthetics may describe image creation differently to a programmer concerned with the mathematics of simulating light.
 
 Consider a spectrum of language from cold, technical logic at one end to emotional, abstract creativity at the other. 
 
