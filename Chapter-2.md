@@ -95,7 +95,23 @@ Consider a spectrum of language from cold, technical logic at one end to emotion
 
 When communicating with other groups, it is important to do so on an appropriate point of the spectrum, as they may not share your assumptions about terminology.
 
+## Section 2.6: Pre-Production: An Overview
 
+Pre-production, AKA "pre-pro" or "pre-prod," is the planning phase.
+
+During pre-production, the full scope of work is defined and possible points of failure are identified.
+
+### On the art side
+
+The goal of the art department during pre-production is to _identify the visual style_ of the film or game. This may include:
+* creating concept artwork on paper and in digital painting software,
+* building test assets,
+* shooting footage in the lot and brainstorming with some visual treatments,
+* and **pre-visualization**&mdash;the process of creating animations or still images to help define the way in which a movie will be shot and the visual elements it will require.
+
+Most of this work takes the form of _storyboards_ and _concept sketches_.
+
+**Technical Artists** (TAs) and **Technical Directors** (TDs), who have both artistic sensibility and the ability to script, are invaluable when artists require ad hoc tools during pre-production. 
 
 
 
