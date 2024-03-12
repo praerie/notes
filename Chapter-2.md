@@ -156,3 +156,37 @@ The result of this work may be (1) a complete 3D animation with low-res placehol
     * hiring actors
     * building sets and costume design
     * for developers, identifying and fixing major gaps in pipeline
+
+## Section 2.8: Pre-Production in the Games Pipeline
+
+### Concept 
+
+Defining the concept and genre of the game begins before pre-production and continues throughout this stage. 
+
+The concept and genre play a role in decisions about game engine and pipeline setup, e.g. story-driven games may need a script, storyboard, and rules governing characters' abilities and inventories.
+
+### Output
+
+Game pre-production often results in two different kinds of output, the "horizontal slice" and the "vertical slice," each laying the foundation for a different aspect of production.
+
+* **horizontal slice**:
+    * consists of a broad set of gameplay features in a prototype environment known as a "white-box level," which may include untextured assets, missing animations, and rough sound 
+    * serves to get a feel for the flow of gameplay and an idea of production timeline
+    * results in a level that is playable from start to finish, blocked out with placeholders
+    * leads to less reworking of art content later in production
+    * characterized by _final-quality gameplay_
+* **vertical slice**:
+    * consists of a small section of the game, often a single level or part of a level, as close to shippable quality as possible
+    * serves to provide confidence in the development process
+    * also serves as a stress test for the pipeline and a benchmark for the quality of art assets
+    * characterized by _final-quality assets_
+
+### Goal
+
+A common goal at the end of pre-production is to produce a **playable demo** that can be released to the public, which can only be achieved through the union of a horizontal slice with a vertical slice.
+
+### Localization
+
+**Localization data** is information required to create a version of the game tailored to a particular language, including on-screen translations, new voice recordings, and language-specific models and textures. 
+
+While localization tends to be completed late in development, it is critical to plan for it during pre-production.
