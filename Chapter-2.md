@@ -99,7 +99,15 @@ When communicating with other groups, it is important to do so on an appropriate
 
 Pre-production, AKA "pre-pro" or "pre-prod," is the planning phase.
 
-During pre-production, the full scope of work is defined and possible points of failure are identified.
+During pre-production, 
+* the full scope of work is defined,
+* possible points of failure are identified,
+* the pipeline is prototyped and foundations of the "real" pipeline are laid,
+* requirements are hazy,
+* plans are always changing,
+* new tools are explored,
+* documentation and training are prepared for modelers and animators,
+* and staff improvises solutions to new problems quickly.
 
 ### On the art side
 
@@ -113,5 +121,16 @@ Most of this work takes the form of _storyboards_ and _concept sketches_.
 
 **Technical Artists** (TAs) and **Technical Directors** (TDs), who have both artistic sensibility and the ability to script, are invaluable when artists require ad hoc tools during pre-production. 
 
+### On the technical side
 
+Pre-production is the time to test and validate ideas from the creative team to minimize risk. 
 
+Ideas that may look great as concept sketches often turn out to be technically impossible, and new cutting-edge tools may be incompatible with the rest of the pipeline. 
+
+Prototype code is notoriously unreliable, so teams often reimplement their prototype tools completely rather than building upon them; although sometimes "temporary" solutions become permanent due to lack of time or resources.
+
+### Guiding Principle
+
+In this industry, there is one simple rule to live by: 
+
+> "The only thing that is constant is change."
