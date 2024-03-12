@@ -210,13 +210,9 @@ In the world of VFX, the term "production" refers to live shoot and the collecti
 
 ### Hardware Restrictions
 
-| Game Production   |
-| ----------------- |
-| limited by memory and system resources of consoles |
+Game production is _limited_ by memory and system resources of consoles.
 
-| Film Production   |
-| ----------------- | 
-| virtually unlimited&mdash;given enough computers and time, it will render |
+On the other hand, film production is _virtually unlimited_&mdash;given enough computers and time, it will render.
 
 ### Key Traits
 
