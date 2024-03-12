@@ -127,10 +127,32 @@ Pre-production is the time to test and validate ideas from the creative team to 
 
 Ideas that may look great as concept sketches often turn out to be technically impossible, and new cutting-edge tools may be incompatible with the rest of the pipeline. 
 
-Prototype code is notoriously unreliable, so teams often reimplement their prototype tools completely rather than building upon them; although sometimes "temporary" solutions become permanent due to lack of time or resources.
+Prototype code is notoriously unreliable, so teams often reimplement their prototype tools completely rather than building upon them; however, sometimes "temporary" solutions become permanent due to lack of time or resources.
 
 ### Guiding Principle
 
 In this industry, there is one simple rule to live by: 
 
 > "The only thing that is constant is change."
+
+## Section 2.7: Pre-Production in the Film Pipeline
+
+In VFX, pre-production applies to all preparation involved before the camera begins rolling.
+
+* Graphics-related tasks:
+    * storyboarding
+    * pre-visualization
+    * gathering lighting information
+    * visual research
+    * concept designs for characters and environments
+    * defining color palettes
+    * defining assets (everything visible in the scene for CG animation or shot plates, green screens, and digital extensions for live action)
+    * composition of key shots (handled during _layout_ in CG animation or during _pre-visualization_ in live action)
+
+The result of this work may be (1) a complete 3D animation with low-res placeholder models, edited together with rough dialogue and sound effects, or (2) it may be an **animatic**&mdash;a series of still images, such as storyboard frames, cut together with the correct timings for final shots.
+
+* Non-graphics-related tasks:
+    * budgeting
+    * hiring actors
+    * building sets and costume design
+    * for developers, identifying and fixing major gaps in pipeline
