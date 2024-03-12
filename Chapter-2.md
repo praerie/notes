@@ -175,6 +175,7 @@ Game pre-production often results in two different kinds of output, the "horizon
     * results in a level that is playable from start to finish, blocked out with placeholders
     * leads to less reworking of art content later in production
     * characterized by _final-quality gameplay_
+
 * **vertical slice**:
     * consists of a small section of the game, often a single level or part of a level, as close to shippable quality as possible
     * serves to provide confidence in the development process
@@ -190,3 +191,43 @@ A common goal at the end of pre-production is to produce a **playable demo** tha
 **Localization data** is information required to create a version of the game tailored to a particular language, including on-screen translations, new voice recordings, and language-specific models and textures. 
 
 While localization tends to be completed late in development, it is critical to plan for it during pre-production.
+
+## Section 2.9: Production: An Overview
+
+During production, work shifts from planning to _building_.
+
+There is an increase in both _team size_, from a couple dozen during pre-production to possibly hundreds during production, and in _data generation_, usually orders of magnitude more.
+
+### Output
+
+In CG animation and games, all assets are created during this phase:
+* models
+* textures
+* control rigs
+* animation data
+
+In the world of VFX, the term "production" refers to live shoot and the collection of on-set data, while digital assets are created during post-production.
+
+### Hardware Restrictions
+
+| Game Production   |
+| ----------------- |
+| limited by memory and system resources of consoles |
+
+| Film Production   |
+| ----------------- | 
+| virtually unlimited&mdash;given enough computers and time, it will render |
+
+### Key Traits
+
+Two key traits help manage the chaos of full production:
+
+#### (1) Transparency 
+
+Analogous to the 'find and replace' function in a word processor, transparency enables the pipeline team to find problematic content automatically through tools and scripts, allowing quick updates and fixes.
+
+It is critical that large-scale changes can be made without requiring individual assets to be rewritten manually.
+
+#### (2) Compartmentalization 
+
+The pipeline team aims for a constellation of self-sustaining units that each do one thing well, rather than relying on a huge set of tools that are inextricably linked.
