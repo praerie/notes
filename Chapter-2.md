@@ -227,3 +227,33 @@ It is critical that large-scale changes can be made without requiring individual
 #### (2) Compartmentalization 
 
 The pipeline team aims for a constellation of self-sustaining units that each do one thing well, rather than relying on a huge set of tools that are inextricably linked.
+
+## Section 2.10: Production in the Film Pipeline
+
+### Feature Animation Phases
+
+There are multiple phases of feature animation production:
+* brief and story planning
+* production of high-resolution assets
+* assets assembled into shots and building sequences
+* rendering and compositing 
+
+### The Role of a Pipeline Developer
+
+3 most common tasks for pipeline developers during production:
+* fixing bugs
+* optimizing existing workflow features
+* adding new workflow features, which may be:
+    * details missed during original development,
+    * enhancements that you finally have time to work on, 
+    * or subtle changes prompted by the way tools are being used in the context of real production
+
+### Automation
+
+Tasks that are performed routinely in production are often automated via software.
+
+For example, automating the export of **geometry caches**&mdash;data files showing the position of each point on the model in each frame of the animation&mdash;frees up the animator to do more creative work.
+
+
+
+
