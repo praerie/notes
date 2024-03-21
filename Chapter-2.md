@@ -243,9 +243,9 @@ There are multiple phases of feature animation production:
 3 most common tasks for pipeline developers during production:
 * fixing bugs
 * optimizing existing workflow features
-* adding new workflow features, which may be:
-    * details missed during original development,
-    * enhancements that you finally have time to work on, 
+* adding new workflow features:
+    * details missed during original development
+    * enhancements that you finally have time to work on
     * or subtle changes prompted by the way tools are being used in the context of real production
 
 ### Automation
@@ -254,6 +254,22 @@ Tasks that are performed routinely in production are often automated via softwar
 
 For example, automating the export of **geometry caches**&mdash;data files showing the position of each point on the model in each frame of the animation&mdash;frees up the animator to do more creative work.
 
+## Section 2.11: Production in the Games Pipeline
 
+During the production stage of a game, the focus is on producing content, such as:
+* art assets,
+* audio,
+* gameplay elements,
+* and level designs.
+
+### Ideal Flow vs. Reality
+
+In an ideal world, system programming and pipeline development are completed during pre-production, content creation and assembly during production, and remaining bug fixes during finalling.
+
+However, in practice, this rarely happens&mdash;pipelines change quite significantly as weaknesses are revealed during production.
+
+### Priorities & Compromises
+
+Attention should be focused on the most important changes, generally fixing tools that generate the most complaints. Cost and the risk of holding up production may prohibit you from optimizing a sub-optimal pipeline.
 
 
