@@ -272,4 +272,14 @@ However, in practice, this rarely happens&mdash;pipelines change quite significa
 
 Attention should be focused on the most important changes, generally fixing tools that generate the most complaints. Cost and the risk of holding up production may prohibit you from optimizing a sub-optimal pipeline.
 
+## Section 2.12: Post-Production or Finalling: An Overview
+
+Post-production or finalling is the last chance to improve a product. It is at this stage that *film and game pipelines diverge radically*.
+
+In an animated feature, the film will be nearly completed with final images already rendered. 
+
+In games, some of the most technical work is yet to come; bugs and gameplay issues are resolved during finalling. 
+
+
+
 
