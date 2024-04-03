@@ -282,7 +282,6 @@ In games, some of the most technical work is yet to come; bugs and gameplay issu
 
 ## Section 2.13: Post-Production in the Film Pipeline
 
-
 ### Feature Animations vs. Live Action
 
 For feature animations, post-production refers to tasks carried out once final images have been created:  
@@ -307,3 +306,45 @@ Making changes to a shot depends on how many steps of the visual effects process
 For example, the layout pipeline will complete their work before lighting and compositing. 
 
 When work is split between multiple facilities with their own specialties for large productions, the same thing may happen: one facility specializing in fluid simulation will finish earlier than one specializing in dimensionalization. 
+
+## Section 2.14: Finalling in the Games Pipeline
+
+Finalling a game is analogous to software development, where a nearly finished product is turned over to QA (Quality Assurance). 
+
+Finalling is driven by *artistic as well as technical concerns*.
+
+### Mastering
+
+**Mastering** is the process of laying out the assets on a DVD or Blu-ray. This can reveal problems that were not obvious earlier, such as files that may be too large to fit.
+
+### Milestones
+
+At the start of finalling, the game will be "complete," but overrun with bugs. Some bugs will reflect problems with the code and others with the art assets, e.g. holes in a physics mesh that allow players to fall through the world.
+
+**Milestones** are the formal steps of identifying and fixing problems:
+
+* **Alpha**:
+    * typically an internal milestone, negotiated between studio and publisher
+    * formally complete, can theoretically be played all the way through
+    * much of the artwork will be placeholders
+    * performance will usually be well below predicted frame rates
+    * lots of bugs
+* **Content Complete**:
+    * placeholders have been replaced by shippable versions of final assets, although not necessarily polished nor bug-free
+    * realistic constraints on memory and run-time performance are respected
+    * story arcs and basic game flow are locked 
+    * graphic tweaks are ongoing, but no new cinematics, characters, or gameplay areas will be added
+    * some production staff move on to other projects, while others remain for bug fixes and polishing
+* **Beta**:
+    * all gameplay content is complete
+    * game is in shippable form, both in terms of resource use and asset quality
+    * may still be issues to resolve, but game is now a buggy version of final release rather than a suggestion of it
+    * play-tests and public demonstrations of the project are at their height!
+        * professional testers work on the game continuously, probing for flaws and inconsistencies
+        * some games also have "open beta" programs where a select number of customers play the game
+* **Final**:
+    * content is locked down: no new assets and changes are only permissible to fix reported bugs
+    * team is drastically reduced in size to only a few who have the authority to make last-minute changes
+    * the game is now ready for duplication and distribution
+    * tends to be emotionally anticlimactic for the team, as most have already moved on to other projects 
+ 
