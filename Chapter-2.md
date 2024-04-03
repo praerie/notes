@@ -280,6 +280,30 @@ In an animated feature, the film will be nearly completed with final images alre
 
 In games, some of the most technical work is yet to come; bugs and gameplay issues are resolved during finalling. 
 
+## Section 2.13: Post-Production in the Film Pipeline
 
 
+### Feature Animations vs. Live Action
 
+For feature animations, post-production refers to tasks carried out once final images have been created:  
+* editing, 
+* dimensionalization (DM), 
+* digitizing footage to create a digital intermediate (DI), 
+* color correction or "grading", mastering, 
+* and film-out (printing the digital images to film for distribution to cinemas).
+
+However, for live-action films, "production" refers to the live shoot and "post-production" tends to refer to anything that follows, including the VFX work (modeling, texture painting, rigging, animation, etc.).
+
+### CBB
+
+Many teams avoid describing shots as "final" until they have been handed over to the client.
+
+**Could Be Better**&mdash;a term used to refer to shots that may benefit from a few minor technical or aesthetic adjustments if ***time, budget, and continuity*** permit.
+
+### Departmentalization
+
+Making changes to a shot depends on how many steps of the visual effects process are involved in the feedback loop. As such, films tend to go out of production department by department. 
+
+For example, the layout pipeline will complete their work before lighting and compositing. 
+
+When work is split between multiple facilities with their own specialties for large productions, the same thing may happen: one facility specializing in fluid simulation will finish earlier than one specializing in dimensionalization. 
