@@ -11,7 +11,7 @@ Find a copy of the book [here](https://www.routledge.com/Production-Pipeline-Fun
 * [Chapter 2A&mdash;Interlude: Previs and Related Data](https://github.com/praerie/production-pipeline/blob/main/Chapter-2A.md)
 * [Chapter 3&mdash;Asset Creation for Film](https://github.com/praerie/production-pipeline/blob/main/Chapter-3.md)
 * Chapter 3A&mdash;Interlude: LIDAR: Asset Capture on Set
-* Chapter 4&mdash;Asset Creation for Games
+* [Chapter 4&mdash;Asset Creation for Games](https://github.com/praerie/production-pipeline/blob/main/Chapter-4.md)
 * Chapter 5&mdash;The Basic Functionality of a Pipeline
 * Chapter 6&mdash;Systems Infrastructure
 * Chapter 6A&mdash;Interlude: Mitigating Risk Through Regular Maintenance and Disaster Planning
