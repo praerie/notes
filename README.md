@@ -1,6 +1,6 @@
 # Production Pipeline Notes
 
-These notes summarize _Production Pipeline Fundamentals for Film and Games_ by Renee Dunlop. Given the scarcity of resources for those curious about production pipelines in the film and gaming industries, it is my hope that these notes are useful to those without access to Dunlop's book or who prefer the material presented succinctly.
+These notes summarize _Production Pipeline Fundamentals for Film and Games_ by Renee Dunlop. Given the scarcity of online resources for those curious about production pipelines in the film and gaming industries, I am sharing my notes on Dunlop's book for those without access to it or who prefer the material presented succinctly.
 
 Find a copy of the book [here](https://www.routledge.com/Production-Pipeline-Fundamentals-for-Film-and-Games/Dunlop/p/book/9780415812290) or [here](https://www.amazon.com/Production-Pipeline-Fundamentals-Film-Games/dp/0415812291)!
 
